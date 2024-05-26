@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #52b788;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 75%;
+    margin: 25px;
+}
+
+h1 {
+    color: #2d662f;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+}
+
+.form-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side {
+    width: 48%;
+}
+.right-side {
+    width: 45%;
+    height: auto;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 95%;
+    padding: 8px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.radio-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.radio-left {
+    display: flex;
+    flex-direction: column;
+}
+.radio-right {
+    display: flex;
+    flex-direction: column;
+}
+.radio-group input[type="radio"] {
+    margin: 0 5px 0 0;
+}
+
+.age-container {
+    /* border: 1px solid #ccc; */
+    padding: 20px 10px 10px 10px;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.age-container legend {
+    /* font-size: 14px; */
+    padding: 0 5px;
+}
+
+.age-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    /* gap: 10px; */
+}
+
+.age-section .radio-group label {
+    margin-left: 5px;
+}
+
+button {
+    background-color: #5cb85c;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
